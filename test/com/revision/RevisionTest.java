@@ -59,6 +59,8 @@ public class RevisionTest {
 	public void getVowelCount_gives_the_count_of_vowels(){
 		Revision r = new Revision();
 		assertEquals(r.getVowelCount("morning"),2);
+        assertEquals(r.getVowelCount("cooling"), 3);
+        assertEquals(r.getVowelCount("i am"), 2);
 	}
 }
 
